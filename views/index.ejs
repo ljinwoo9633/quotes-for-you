@@ -1,2 +1,18 @@
 <h1>Quotes For You</h1>
 <h3>Here Is Your Today Quotes</h3>
+<div>
+    <% if(locals.quote != null && locals.person != null) { %>
+        <div>
+            <%= quote%>
+        </div>
+        <div>
+            <%= person%>
+        </div>
+    <% } else { %>
+        <h1>No one</h1>
+    <% } %>
+</div>
+<form action="/add">
+    <button type="submit">Creating Quote</button>
+    <a href="/">See Another Quote</a>
+</form>
