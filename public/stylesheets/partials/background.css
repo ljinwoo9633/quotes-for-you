@@ -1,3 +1,11 @@
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+
 .background-image{
     position: absolute;
     top: 0;
@@ -6,6 +14,7 @@
     height: 100%;
     z-index: -1;
     filter: grayscale(100%);
+    animation: fadeIn 0.5s linear;
 }
 
 .background-image::after{

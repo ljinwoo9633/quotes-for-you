@@ -7,6 +7,10 @@
 
 /*Index Page*/
 
+body{
+    background-color: grey;
+}
+
 .index-form{
     display: flex;
     flex-direction: column;
