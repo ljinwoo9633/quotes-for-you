@@ -4,13 +4,13 @@
     padding: 1px 10px;
     text-align: center;
     font-size: 1.3rem;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
 }
 
 .button-layout{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 1rem;
 }

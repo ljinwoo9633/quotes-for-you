@@ -14,9 +14,6 @@
     height: 100%;
     z-index: -1;
     filter: grayscale(100%);
-    animation: fadeIn 0.5s linear;
+    animation: fadeIn 0.5s linear
 }
 
-.background-image::after{
-    box-shadow: inset 120px 100px 250px #000000;
-}
