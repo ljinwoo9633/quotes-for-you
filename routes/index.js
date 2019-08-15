@@ -14,8 +14,9 @@ router.get('/', async (req, res) => {
             person: null,
         })
     }
-    const quote = quotes[genRandomNumber(quotes.length)].quote;
-    const person = quotes[genRandomNumber(quotes.length)].person;
+    const quoteInfo = quotes[genRandomNumber(quotes.length)];
+    const quote = quoteInfo.quote;
+    const person = quoteInfo.person;
     res.render('index', {quote: quote, person: person});
     
 })

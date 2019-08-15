@@ -18,6 +18,7 @@ app.set('layout', 'layouts/layout');
 
 app.use(expressLayouts);
 app.use(bodyParser.urlencoded({extended: false}));
+app.use(express.static('public'));
 
 const mongoose = require('mongoose');
 mongoose.connect(process.env.DATABASE_URL, {useNewUrlParser: true});

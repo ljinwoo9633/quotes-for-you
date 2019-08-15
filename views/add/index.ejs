@@ -1,18 +1,48 @@
-<header>
-    Creating Quote
-</header>
-<section>
-    <form action="/add" method="POST">
-        <label>Quote</label>
-        <input type="text" placeholder="Waht Is Your Quote?" name="quote" />
-        <label>Person</label>
-        <input type="text" placeholder="What Is Your Name?" name="person" />
-        <select name="character">
-            <option value="love">Love</option>
-            <option value="life">Life</option>
-            <option value="study">study</option>
-        </select>
-        <button type="submit">Submit</button>
-        <a href="/">Back</a>
-    </form>
-</section>
+<div class="add-form">
+    <header>
+        <h2>Creating Quote</h2>
+    </header>
+    <section>
+        <div class="paper">
+            <form action="/add" method="POST">
+                <div>
+                    <div class="lable-css">
+                        <label>Quote</label>
+                    </div>
+                    <input type="text" placeholder="What Is Your Quote?" name="quote" required maxlength="50"/>
+                </div>
+                <div>
+                    <div class="lable-css">
+                        <label>Person</label>
+                    </div>
+                    <input type="text" placeholder="What Is Your Name?" name="person" required maxlength="10" />
+                </div>
+                <div>
+                    <div>
+                        <label class="lable-css">Character</label>
+                    </div>
+                    <select class="select-css" name="character">
+                        <option value="love">사랑</option>
+                        <option value="life">인생</option>
+                        <option value="study">공부</option>
+                        <option value="success">성공</option>
+                        <option value="friend">친구</option>
+                        <option value="reading">독서</option>
+                        <option value="parting">이별</option>
+                        <option value="time">시간</option>
+                        <option value="effort">노력</option>
+                        <option value="hope">희망</option>
+                        <option value="challenge">도전</option>
+                        <option value="confidence">자신감</option>
+                    </select>
+                </div>
+                <button class="btn" type="submit"><i class="fas fa-plus"></i></button>
+                <a class="btn" href="/"><i class="fas fa-backspace"></i></a>
+            </form>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</div>
+

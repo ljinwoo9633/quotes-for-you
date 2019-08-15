@@ -1,18 +1,35 @@
-<h1>Quotes For You</h1>
-<h3>Here Is Your Today Quotes</h3>
-<div>
-    <% if(locals.quote != null && locals.person != null) { %>
-        <div>
-            <%= quote%>
+<div class="index-form">
+    <header>
+        <h1>Quotes For You</h1>
+    </header>
+    <section>
+        <div class="card">
+            <div class="quote">
+                <% if(locals.quote != null && locals.person != null) { %>
+                    <div class="quote-quote">
+                        <%= quote%>
+                    </div>
+                    <div class="quote-person">
+                        - by <%= person%> -
+                    </div>
+                <% } else { %>
+                    <h1>No one</h1>
+                <% } %>
+            </div>
+            
         </div>
-        <div>
-            <%= person%>
+        <div class="button-layout">
+            <form action="/add">
+                <button class="btn" type="submit"><i class="fas fa-plus"></i></button>
+                <a class="btn" href="/"><i class="fas fa-undo-alt"></i></a>
+            </form>
         </div>
-    <% } else { %>
-        <h1>No one</h1>
-    <% } %>
+        
+    </section>
+    <footer>
+        
+    </footer>
 </div>
-<form action="/add">
-    <button type="submit">Creating Quote</button>
-    <a href="/">See Another Quote</a>
-</form>
+
+
+

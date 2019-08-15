@@ -1,0 +1,16 @@
+.btn{
+    all: unset;
+    cursor: pointer;
+    padding: 1px 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.button-layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}

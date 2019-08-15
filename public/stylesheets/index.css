@@ -1,0 +1,27 @@
+@import './partials/background.css';
+@import './partials/card.css';
+@import './partials/button.css';
+@import './partials/letters.css';
+@import './partials/paper.css';
+@import './partials/header.css';
+
+/*Index Page*/
+
+.index-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Add Page*/
+
+.add-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
