@@ -13,7 +13,7 @@ function printBackground(number){
 }
 
 function init(){
-    const number = genRandomNumber(9);
+    const number = genRandomNumber(6);
     printBackground(number);
 }
 
