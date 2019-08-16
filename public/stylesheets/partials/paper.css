@@ -21,8 +21,7 @@
     border: none;
     background: transparent;
     font-size: 1.3rem;
-    width: 10rem;
-    
+    width: 12rem;
 }
 
 .paper input::placeholder{

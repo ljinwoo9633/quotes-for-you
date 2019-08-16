@@ -1,23 +1,32 @@
 <div class="index-form">
-    <header>
-        <h1>Quotes For You</h1>
+    <header class="index">
+        <h3></h3>
     </header>
     <section>
         <div class="card">
             <div class="quote">
                 <% if(locals.quote != null && locals.person != null) { %>
-                    <div class="quote-quote">
+                    <div class="quote-quote hide">
                         <%= quote%>
                     </div>
-                    <div class="quote-person">
+                    <div class="quote-person hide">
                         - by <%= person%> -
                     </div>
                 <% } else { %>
                     <h1>No one</h1>
                 <% } %>
             </div>
-            
+            <div class="ad hide">
+                <h6>Related Info</h6>
+                <div class="ad-form">
+                    <% if(locals.ad_db_one != null && locals.ad_db_two != null) { %>
+                            <a class="ad-a" href="<%= ad_db_one.ad_url %>"><i class="<%= ad_db_one.icon %>"></i> <small><%= ad_db_one.word%></small></a>
+                            <a class="ad-a" href="<%= ad_db_two.ad_url %>"><i class="<%= ad_db_two.icon %>"></i> <small><%= ad_db_two.word%></small></a>
+                    <% } %>
+                </div>
+            </div>
         </div>
+        
         <div class="button-layout">
             <form action="/add">
                 <button class="btn" type="submit"><i class="fas fa-plus"></i></button>
