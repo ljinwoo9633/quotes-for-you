@@ -24,7 +24,7 @@ if(window.location.pathname === '/'){
         setTimeout(() => {
             h3.classList.add('appear');
             h3.innerText = "Quotes For U";
-        }, 1500);
+        }, 2000);
     }
 
     init();
@@ -40,7 +40,7 @@ if(window.location.pathname === '/add'){
         setTimeout(() => {
             h3.classList.add('appear');
             h3.innerText = "Creating Quote";
-        }, 1500);
+        }, 2000);
     }
 
     init();

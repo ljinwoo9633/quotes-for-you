@@ -9,3 +9,7 @@
 .appear{
     animation: fadeIn 0.5s linear
 }
+
+.hide{
+    display: none;
+}

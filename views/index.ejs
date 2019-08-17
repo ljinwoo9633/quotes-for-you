@@ -6,17 +6,17 @@
         <div class="card">
             <div class="quote">
                 <% if(locals.quote != null && locals.person != null) { %>
-                    <div class="quote-quote hide">
+                    <div class="quote-quote">
                         <%= quote%>
                     </div>
-                    <div class="quote-person hide">
+                    <div class="quote-person">
                         - by <%= person%> -
                     </div>
                 <% } else { %>
                     <h1>No one</h1>
                 <% } %>
             </div>
-            <div class="ad hide">
+            <div class="ad">
                 <h6>Related Info</h6>
                 <div class="ad-form">
                     <% if(locals.ad_db_one != null && locals.ad_db_two != null) { %>
