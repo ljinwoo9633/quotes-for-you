@@ -6,11 +6,12 @@
 @import './partials/header.css';
 @import './partials/ad.css';
 @import './partials/effect.css';
+@import './partials/help.css';
 
 /*Index Page*/
 
 body{
-    background-color: grey;
+    background-color: rgb(14, 14, 14);
 }
 
 .index-form{
@@ -30,4 +31,13 @@ body{
     text-align: center;
 }
 
+/*Help Page*/
+
+.help-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 

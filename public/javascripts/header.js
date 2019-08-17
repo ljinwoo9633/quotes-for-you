@@ -40,7 +40,22 @@ if(window.location.pathname === '/add'){
         setTimeout(() => {
             h3.classList.add('appear');
             h3.innerText = "Creating Quote";
-        }, 2000);
+        }, 1500);
+    }
+
+    init();
+}
+
+if(window.location.pathname === '/help'){
+    const header = document.querySelector('header');
+    const h4 = header.querySelector('h4');
+
+    
+    function init(){
+        setTimeout(() => {
+            h4.classList.add('appear');
+            h4.innerText = "\"여러분의 명언을 세상에 전하세요\""
+        }, 500);
     }
 
     init();

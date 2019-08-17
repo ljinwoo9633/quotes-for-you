@@ -16,3 +16,19 @@ if(window.location.pathname === '/'){
 
     init();
 }
+
+if(window.location.pathname === '/help'){
+    const button = document.querySelector('.btn');
+    function buttonAppear(){
+        setTimeout(() => {
+            button.classList.remove('hide');
+            button.classList.add('appear');
+        }, 3000);
+    }
+
+    function init(){
+        buttonAppear();
+    }
+
+    init();
+}

@@ -1,0 +1,12 @@
+.paragraph{
+    font-weight: bold;
+}
+
+.caution{
+    margin: 0.2rem 0;
+    color: red;
+}
+
+.help-btn{
+    margin: -5rem;
+}
