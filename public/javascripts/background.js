@@ -1,4 +1,5 @@
 const body = document.querySelector('body');
+const backgroundFolder = '../images';
 
 function genRandomNumber(number){
     return Math.floor(Math.random() * number) + 1;
@@ -13,7 +14,7 @@ function printBackground(number){
 }
 
 function init(){
-    const number = genRandomNumber(6);
+    const number = genRandomNumber(10);
     printBackground(number);
 }
 
