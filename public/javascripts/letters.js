@@ -27,6 +27,7 @@ if(window.location.pathname === "/help"){
     function paragraphAppear(){
         setTimeout(() => {
             paragraph.classList.add('appear');
+            paragraph.classList.add('background-color');
             p_one.innerHTML = "명언은 여러분의 철학을 키워주는 도구입니다";
             p_two.innerHTML = "평범한 우리들의 명언도 유명한 명언 못지않은";
             p_three.innerHTML = "가치를 지니고 있다고 생각하여";

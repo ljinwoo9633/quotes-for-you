@@ -17,3 +17,7 @@
     animation: fadeIn 0.5s linear
 }
 
+.background-color{
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+}
