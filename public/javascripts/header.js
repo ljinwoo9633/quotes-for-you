@@ -29,3 +29,19 @@ if(window.location.pathname === '/'){
 
     init();
 }
+
+if(window.location.pathname === '/add'){
+    const header = document.querySelector('header');
+    const h3 = header.querySelector('h3');
+    
+    h3.innerText = "여러분의 명언을 적어주세요";
+    
+    function init(){
+        setTimeout(() => {
+            h3.classList.add('appear');
+            h3.innerText = "Creating Quote";
+        }, 1500);
+    }
+
+    init();
+}
