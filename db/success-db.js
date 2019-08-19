@@ -77,6 +77,10 @@ const success = [
         ad_url: "http://aywer.me/t5znkryqns",
         icon: "fas fa-coins",
         word: "텐핑"
+    },{
+        ad_url: "http://aywer.me/t5znprm5a8",
+        icon: "fas fa-file-invoice-dollar",
+        word: "세무사 시험"
     }
 ]
 
