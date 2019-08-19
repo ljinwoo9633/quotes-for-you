@@ -14,7 +14,7 @@ function printBackground(number){
 }
 
 function init(){
-    const number = genRandomNumber(10);
+    const number = genRandomNumber(15);
     printBackground(number);
 }
 

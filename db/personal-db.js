@@ -20,26 +20,6 @@ const personal = [
         word: "여행자보험"
     },
     {
-        ad_url: "http://aywer.me/t5znmet2ye",
-        icon: "fas fa-hospital",
-        word: "소람한방병원"
-    },
-    {
-        ad_url: "http://aywer.me/t5znmet2yf",
-        icon: "fas fa-hospital",
-        word: "소람한방병원"
-    },
-    {
-        ad_url: "http://aywer.me/t5znmet2yg",
-        icon: "fas fa-hospital",
-        word: "소람한방병원"
-    },
-    {
-        ad_url: "http://aywer.me/t5znmet2yh",
-        icon: "fas fa-hospital",
-        word: "소람한방병원"
-    },
-    {
         ad_url: "http://joimu.me/t5zel5g54j",
         icon: "fas fa-user-injured",
         word: "KDB 생명보험"
