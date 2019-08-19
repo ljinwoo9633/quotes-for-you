@@ -27,16 +27,13 @@ router.get('/', async (req, res) => {
         })
     }
     
-    const number = genRandomNumber(quotes.length);
-    preNumber = number;
-
     let number = genRandomNumber(quotes.length);
     while(preNumber === number){
         number = genRandomNumber(quotes.length);
     }
     preNumber = number;
-
-    const quoteInfo = quotes[genRandomNumber(quotes.length)];
+    
+    const quoteInfo = quotes[genRandomNumber(number)];
     const quote = quoteInfo.quote;
     const person = quoteInfo.person;
 
