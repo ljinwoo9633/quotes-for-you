@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const Quotes = require('../models/quote');
 
+let preNumber = 0;
+
 function genRandomNumber(seed){
     return Math.floor(Math.random() * seed);
 }
@@ -24,6 +26,16 @@ router.get('/', async (req, res) => {
             person: null,
         })
     }
+    
+    const number = genRandomNumber(quotes.length);
+    preNumber = number;
+
+    let number = genRandomNumber(quotes.length);
+    while(preNumber === number){
+        number = genRandomNumber(quotes.length);
+    }
+    preNumber = number;
+
     const quoteInfo = quotes[genRandomNumber(quotes.length)];
     const quote = quoteInfo.quote;
     const person = quoteInfo.person;
