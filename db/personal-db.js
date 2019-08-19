@@ -73,6 +73,11 @@ const personal = [
         ad_url: "http://aywer.me/t5znkrun1v",
         icon: "fas fa-smile-beam",
         word: "유가이즈"
+    },
+    {
+        ad_url: "http://aywer.me/t5znpsaam7",
+        icon: "fas fa-tint",
+        word: "직수 정수기"
     }
 ]
 
