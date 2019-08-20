@@ -58,6 +58,21 @@ const personal = [
         ad_url: "http://aywer.me/t5znpsaam7",
         icon: "fas fa-tint",
         word: "직수 정수기"
+    },
+    {
+        ad_url: "http://aywer.me/t5znref4qf",
+        icon: "fas fa-gifts",
+        word: "죽염"
+    },
+    {
+        ad_url: "http://aywer.me/t5znhbfh2d",
+        icon: "fas fa-hospital",
+        word: "눈매교정 잘하는 병원"
+    },
+    {
+        ad_url: "http://aywer.me/t5zd34b881",
+        icon: "fas fa-child",
+        word: "성조숙증"
     }
 ]
 
